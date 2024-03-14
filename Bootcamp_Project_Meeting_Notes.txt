@@ -1,0 +1,28 @@
+3/13/2024
+
+train on this data, build model, compare to another area with similar parameters but not as much info
+for measurements (train on one state and test model on another state).
+
+For now work with the data we have (NOAA).
+
+It'll be cool to compare fresh vs salt water
+
+Assignment 1
+performance indicators: 
+	Predicting/Forecasting an algae bloom accurately, 
+	model built on the more reliable measurements (maybe add weights to features based on reliability),
+	predicting on location as well?,
+        severity in bloom (how long) 
+
+stakeholders:
+	NOAA
+	People that consume from a water source suceptible to algae blooms
+	State Tourism Board
+	Fish and Wildlife Department
+what the problem is: people are getting sick from algae blooms
+
+to do: put the website for the data on the slack channel
+	start a github so that everyone can have a fork
+	put the meeting notes on the github
+	complete assignment 1 (check out the KPI's of past projects, on google doc)
+
