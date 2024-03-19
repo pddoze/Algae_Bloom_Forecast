@@ -15,7 +15,7 @@ https://docs.google.com/document/d/1RmxwkCWCkpE56HsLthvGlH6eEwtKSLgrlb_ws6TPfME/
 
 Deadlines:\
 3/18/2024\
-Assignment 1 that defines the problem, the data you're using, the stakeholders, and the KPIs.\
+Assignment 1 that defines the problem, the data you're using, the stakeholders, and the KPIs.
 
 3/25/2024\
-Data cleaning and preprocessing\
+Data cleaning and preprocessing
