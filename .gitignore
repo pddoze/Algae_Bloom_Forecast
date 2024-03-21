@@ -1,4 +1,7 @@
 #The ignore file for algae bloom project
 #
 #For MAC files
-.DS_Store
+**.DS_Store
+
+#For Data
+*.csv
