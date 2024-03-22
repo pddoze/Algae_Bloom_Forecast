@@ -1,0 +1,66 @@
+3/13/2024
+
+train on this data, build model, compare to another area with similar parameters but not as much info
+for measurements (train on one state and test model on another state).
+
+For now work with the data we have (NOAA).
+
+It'll be cool to compare fresh vs salt water
+
+Assignment 1
+performance indicators: 
+	Predicting/Forecasting an algae bloom accurately, 
+	model built on the more reliable measurements (maybe add weights to features based on reliability),
+	predicting on location as well?,
+        severity in bloom (how long) 
+
+stakeholders:
+	NOAA
+	People that consume from a water source suceptible to algae blooms
+	State Tourism Board
+	Fish and Wildlife Department
+what the problem is: people are getting sick from algae blooms
+
+to do: put the website for the data on the slack channel
+	start a github so that everyone can have a fork
+	put the meeting notes on the github
+	complete assignment 1 (check out the KPI's of past projects, on google doc)
+
+
+
+3/21/2024
+Directions we want to try to move in:
+Taking a closer look at the nans in our data (so far the nan treatment is ok).
+-Is there a pattern (seasonality) in the nans?
+-Check the other info available that come with the nans
+
+Organize the data by latitute and longtitude instead of by state/regions:
+-Looking for blooms along certain latitudes (may imply temp differences)
+-Check on ditribution of the type of algae/blooms (state/region/lat-long)
+
+
+Frequency of the blooms:
+-For a baseline we can see if there are seasonal patterns and can just use the average over the years
+-Since we're looking at timeseries data can look at seasonality
+-Consider the 'time resolution' of the data'
+-Look at the duration of the blooms
+-Look at frequency of the measurements in the same location
+
+
+
+Group Tasks:
+We might want to use jupytext if we are going to be doing pull requests.
+Jupytext creates py files where it is easy to see diff changes in github.
+
+Looking at spatial concentrations of blooms is easy in tableau. Nathan is going to look into this.
+
+As a group we decided to just work with forks for now and leave branches alone.
+
+Next meeting same time in two weeks with the mentor
+Thursday 8:30pm EDT
+Not sure if this is set in stone. In the future 9:00pm is probably better for some members,
+we'll have to decide.
+
+To Do:
+Individually do some EDA and compare notes sometime next week
+ 
