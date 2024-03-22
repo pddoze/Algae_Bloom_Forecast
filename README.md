@@ -19,3 +19,6 @@ Assignment 1 that defines the problem, the data you're using, the stakeholders, 
 
 3/25/2024\
 Data cleaning and preprocessing
+
+4/1-5/2024\
+Second meeting with our mentor. (8:30pm EDT)
