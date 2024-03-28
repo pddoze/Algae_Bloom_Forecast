@@ -11,7 +11,7 @@ We are working on version 7.
 Assignment 1 google doc link:\
 https://docs.google.com/document/d/1RmxwkCWCkpE56HsLthvGlH6eEwtKSLgrlb_ws6TPfME/edit?usp=sharing
 
-
+Paper Link: https://www.biorxiv.org/content/10.1101/2023.11.09.566395v1.full.pdf
 
 Deadlines:\
 3/18/2024\
