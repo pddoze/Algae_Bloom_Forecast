@@ -64,3 +64,32 @@ we'll have to decide.
 To Do:
 Individually do some EDA and compare notes sometime next week
  
+
+3/28/2024
+Deniz made a really good map gif that'd be good for the final slides.
+(maybe we want to focus on Venice and Saratosa?)
+
+Deniz scatter matrix and pairplots shows that there isn't a strong linear relationship.
+
+Korean academic paper used linear regression, neural networks, random forest, and sklearn gbm.
+
+The bimodality of the blooms per year suggests we should look closely at temperature
+
+to do:
+Need to read the Korean paper
+
+Put link to the Korean paper on the READme
+
+Investigate the nans
+
+Continue working on EDA for the meeting next week with the advisor.
+
+Check out the support documents for the data, might find a explanation for the Mississippi event.
+
+investiage the correlation between cell and sample depth
+
+investigate the correlation between latittude and cell count?
+
+investigate the correlation between temp, salinity and the cellcount
+
+filter out 'not observed' category
