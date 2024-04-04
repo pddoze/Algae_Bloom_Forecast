@@ -93,3 +93,19 @@ investigate the correlation between latittude and cell count?
 investigate the correlation between temp, salinity and the cellcount
 
 filter out 'not observed' category
+
+4/3/2024
+Nathan found that the nan's appear to be a random draw, and have no special correlation with the
+other features. Appears to take a random 50% cut of the data. 
+Might be a good idea to do the cut manually to see if the plot is the same.
+
+Deniz found that our data doesn't seem to have seasonality between 2010 and 2023 (will look more into it)
+and so our data is most likely a trend time series
+
+Seasonality seems to be lacking so we're going to do exponential smoothing around a trending type 
+time series.
+
+Arima (neural networks) are also good.
+
+
+
