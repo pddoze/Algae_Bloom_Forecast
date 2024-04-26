@@ -30,8 +30,8 @@ Predicting/Forecasting an algal bloom accurately, building a model on more relia
 As we aim to predict future HABs the methods we utilize methods from the time series toolbox. With the exception of Random Forest, all methods employed are univariate, meaning they do not incorporate features for prediction. Here, we outline a summary of our employed strategies:
 
 - **Baseline Forecasting**: Predicts algal blooms based on simpler methods. We used three baseline models: Naive, Average, and Trend baseline.
-- **Exponential Smoothing**: Uses rolling average of previous data points to predict future data points with exponentially decreasing weights on the past data points. It is good for data with a strong underlying trend or seasonality or lack thereof, but it is a univariate model.
-- **ARIMA**: Another univariate model, it interprets the time series data as a combination of past values plus an error term (AR). It looks at the difference between data metrics, such as the mean, through the dataset (I), and it looks at the datasets moving average (MA).
-- **Random Forest**: Uses multiple decision trees to come to a singular result, making it our multivariate model. It allows us to incorporate water temperature and salinity data into our forecast.
+- **Exponential Smoothing**: Good for forecasting timeseries data where the underlying structure (trend/seasonal/neither) is strong..
+- **ARIMA**: Good for forecasting timeseries data with a more chaotic underlying structure.
+- **Random Forest**: Allows for a multivariate model where we can include the algae blooms dependency on water temperature and salinity.
 
 
