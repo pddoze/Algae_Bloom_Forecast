@@ -105,7 +105,74 @@ and so our data is most likely a trend time series
 Seasonality seems to be lacking so we're going to do exponential smoothing around a trending type 
 time series.
 
-Arima (neural networks) are also good.
+Arima are also good.
 
+We might only want to tackle neural networks unless we have time to kill.
+
+4/4/2024
+splitting the data: Focus on Florida, cut off last few years as test
+			(extra step) after predicting Florida look at wind direction and
+			see if we can predict alabama/mississippi
+Linear Regression, ARIMA, and Random Forest seem like good directions to go in.
+
+Basically write down what we explained to Elizabeth for the proposal.
+Share the proposal on Monday and She'll get back to us on Thursday?
+Meet up next week? Week of 15 not good.
+
+
+4/24/2024
+slide 1
+Describe the problem:
+	Algael blooms bad
+Describe solution
+	Forecast an algae bloom 
+
+Visualization
+	Plotly map gif
+
+slide 2
+The Data
+	Where we got data from NOAA
+	Describe data
+		Problems with the data
+		Clean 
+		The parameters that seemed relevant
+
+	EDA  
+		Mostly Florida data so going to try to forecast Florida
+		Stationary status of timeseries data
+		Correlations between features for monthly vs quarterly data
+
+		(have some plots)
+		
+	
+
+slide 3
+The Models
+	Baseline
+
+	Exponential Smoothing
+		Simple
+		Double
+		Triple
+	ARIMA	
+
+	RandomForest
+	(Table of results)
+	(Some Plots)
+
+slide 4
+"This model performs the best"
+Final Forecast
+
+slide 5
+
+
+
+executive sumamry should be more technical than presentation.
+
+can try to combine results and say we expect this many spikes at this time
+
+make a templeate for the executive sumamry and just have blanks where the values will be
 
 
